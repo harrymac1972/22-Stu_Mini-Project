@@ -1,3 +1,8 @@
+/* * {
+    background-color: bisque;
+} */
+
+
 header {
     background-color: rgb(56, 119, 99);
     text-align: right;
@@ -23,15 +28,21 @@ li {
     padding:.25em;
 }
 
-
-h1 {
-/* margin-left:auto;
-margin-right:auto; */
-/* margin: 0% auto; */
-/* align-content: center; */
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-color: rgb(90, 59, 59);
+main {
+    background-color: rgb(254, 246, 235);
 
 
 }
+
+h1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(90, 59, 59);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
