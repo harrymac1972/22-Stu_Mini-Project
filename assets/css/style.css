@@ -1,0 +1,9 @@
+header {
+    background-color: rgb(56, 119, 99);
+    text-align: right;
+    color:white;
+}
+li {
+    display: inline;
+
+}
