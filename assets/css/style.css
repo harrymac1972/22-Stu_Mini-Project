@@ -4,7 +4,7 @@
 }
 
 
-header {
+header, footer {
     background-color: rgb(56, 119, 99);
     text-align: right;
     color:white;
@@ -20,7 +20,7 @@ li {
 }
 
 .bars, #contactform {
-    background-color: rgb(214, 184, 138);
+    background-color:rgb(235, 198, 186);
     padding:1em;
 }
 
@@ -29,7 +29,7 @@ li {
 }
 
 main {
-    background-color: rgb(254, 246, 235);
+    background-color: rgb(255, 248, 235);
 }
 
 main, footer, #contact, form {
@@ -58,5 +58,31 @@ form {
 }
 
 input {
-    padding: 1px;
+    padding:0;
+    margin:.2em;
+    width:20em;
 }
+
+footer {
+    font-size:small;
+}
+
+#barbtm, button {
+    color: white;
+    background-color:rgb(73, 52, 37);
+    padding:.1em;
+}
+
+button {
+    padding:.5em;
+    width:20%;
+}
+
+#email {
+    position: relative;
+    left:.1em;
+}
+
+/* .formrow {
+    width:1%;
+} */
