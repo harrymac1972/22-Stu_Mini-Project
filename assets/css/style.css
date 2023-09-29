@@ -10,8 +10,6 @@ header, footer {
     color:white;
 }
 
-ul {
-}
 
 li {
     display: inline;
@@ -82,7 +80,3 @@ button {
     position: relative;
     left:.1em;
 }
-
-/* .formrow {
-    width:1%;
-} */
